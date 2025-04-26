@@ -52,6 +52,35 @@ export const excuses: ContentType[] = [
     en: "She's asking friends on how to respond to you",
     zh: "她在问朋友要怎样回你的讯息",
   },
+  {
+    en: "She thinks you are annoying",
+    zh: "她觉得你很烦",
+  },
+  {
+    en: "Her phone is lagging",
+    zh: "她手机卡了",
+  },  {
+    en: "SHe is chatting with other guys",
+    zh: "她在跟别的男生聊天",
+  },  {
+    en: "She is calling other guys",
+    zh: "她在跟别的男生打电话",
+  },  {
+    en: "She dont want to reply you",
+    zh: "她看到了你的讯息但是不想回",
+  },  {
+    en: "She thinks you are useless",
+    zh: "她觉得你很废",
+  },  {
+    en: "She is watching movies with other boys",
+    zh: "她在跟别的男生看电影",
+  },  {
+    en: "She dont know what to say",
+    zh: "她不懂要回你什么",
+  },  {
+    en: "She want you to give up",
+    zh: "她想要你放弃",
+  },
 ];
 
 export const responses: { text: ContentType; emoji: string }[] = [
@@ -87,6 +116,39 @@ export const responses: { text: ContentType; emoji: string }[] = [
     text: { en: "Ur a clown", zh: "你是小丑" },
     emoji: "🤡" 
   },
+  { 
+    text: { en: "GG", zh: "干得漂亮" },
+    emoji: "🙏" 
+  },
+  { 
+    text: { en: "Oh No", zh: "完了" },
+    emoji: "💀" 
+  },
+  { 
+    text: { en: "Good Luck", zh: "加油" },
+    emoji: "💪" 
+  },
+  { 
+    text: { en: "Check again later", zh: "等下再看" },
+    emoji: "😴" 
+  },
+  { 
+    text: { en: "Try again", zh: "再试试看" },
+    emoji: "😏" 
+  },
+  { 
+    text: { en: "Find Another One", zh: "找另一个" },
+    emoji: "😭" 
+  },
+  { 
+    text: { en: "Give up ", zh: "放弃吧" },
+    emoji: "💔" 
+  },
+  { 
+    text: { en: "Stop thinking about her", zh: "不要想她了" },
+    emoji: "🤚" 
+  },
+  
 ];
 
 export const fortunes: ContentType[] = [
@@ -126,4 +188,33 @@ export const fortunes: ContentType[] = [
     en: "She doesnt want to be in a relationship (with you)",
     zh: "她不想谈恋爱（跟你）。",
   },
+  {
+    en: "Your next girlfriend is coming",
+    zh: "你的未来女朋友要来了",
+  },
+  {
+    en: "Dont look at the past",
+    zh: "不要看过去",
+  },
+  {
+    en: "Stop simping bro",
+    zh: "不要舔了",
+  },
+  {
+    en: "Pray to god bro",
+    zh: "祈祷有用",
+  },
+  {
+    en: "Time to hit the gym",
+    zh: "去健身吧",
+  },
+  {
+    en: "Your own problem, your own solution",
+    zh: "自己的问题自己解决",
+  },
+  {
+    en: "Go to sleep",
+    zh: "去睡觉",
+  },
+
 ];
